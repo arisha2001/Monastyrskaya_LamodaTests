@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{C5C4F532-BB5E-45B3-8795-2C2FAC505CA4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LamodaTesting/UnitTest1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LamodaTesting/LamodaTests.cs">
     <Files>
-      <File FileName="LamodaTesting/UnitTest1.cs" Line="14" Column="27" />
+      <File FileName="LamodaTesting/LamodaTests.cs" Line="62" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LamodaTesting" expanded="True">
             <Node name="LamodaTesting" expanded="True">
-              <Node name="UnitTest1.cs" selected="True" />
+              <Node name="LamodaTests.cs" selected="True" />
             </Node>
           </Node>
         </State>

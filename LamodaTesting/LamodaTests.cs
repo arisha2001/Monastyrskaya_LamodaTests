@@ -58,7 +58,7 @@ namespace LamodaTesting
 
             new Actions(driver).MoveToElement(driver.FindElement(By.CssSelector(".products-list-item"))).Build().Perform();
             Assert.IsFalse(driver.FindElements(By.CssSelector(".products-list-item__qv::before")).Any(), "Tooltip has not appeared.");
-            Thread.Sleep(5000);
+
         }
 
 
@@ -75,8 +75,6 @@ namespace LamodaTesting
 
             Assert.IsFalse(driver.FindElements(By.XPath("//button[contains(text(), 'Зарегистрироваться') and not(@disabled)]")).Any(),
                 "Smth go wrong if it works. We couldn't register. Password missmatch. Button must be disabled.");
-
-            Thread.Sleep(5000);
 
         }
 
